@@ -38,9 +38,6 @@ jobs:
   release:
     name: Upload to PyPI
     runs-on: ubuntu-latest
-    environment:
-        name: pypi
-        url: https://
     permissions:
       id-token: write
     # tag が push されたときだけ実行
