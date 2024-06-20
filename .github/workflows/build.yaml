@@ -43,7 +43,7 @@ jobs:
       id-token: write
     environment:
       name: pypi
-      url: https://pypi.org/p/eyesy_api_stub
+      url: https://pypi.org/p/eyesy-api-stubs
     # tag が push されたときだけ実行
     if: startsWith(github.ref, 'refs/tags/')
     needs: [linux]
