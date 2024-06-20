@@ -1,6 +1,6 @@
 [project]
 name = "eyesy_api_stubs"
-version = "0.2.0"
+version = "0.3.0"
 description = "EYESY unofficial Python3 API stub"
 authors = [
     { name = "zztkm", email = "zztkm@tsurutatakumi.info" }
